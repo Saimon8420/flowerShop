@@ -1,0 +1,77 @@
+.footerContainer {
+    background: #111010;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    gap: 20px;
+}
+
+.logo h2 {
+    color: var(--primaryTColor);
+    font-weight: 800;
+}
+
+.logo span {
+    color: white;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input input {
+    border: 2px solid var(--primaryTColor);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input button {
+    background-color: var(--primaryBtnBG);
+    border-radius: 8px;
+    border: none;
+    padding: 3px 5px;
+    color: white;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socialIcons img {
+    width: 20px;
+}
+
+.socialIcons img:hover {
+    cursor: pointer;
+}
+
+.bottomNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottomNav span:hover {
+    cursor: pointer;
+    color: rgb(229, 84, 143);
+}

@@ -1,0 +1,51 @@
+.featureContainer {
+    padding: 40px 60px;
+    text-align: center;
+    background-color: #f2d6dc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featureContainer h2 {
+    font-weight: 800;
+}
+
+.featureDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.eachFeatures {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 20px;
+}
+
+.featureImg {
+    border-radius: 100px;
+    background: rgba(39, 39, 39, 0.03);
+    padding: 40px 10px;
+}
+
+.featureImg img {
+    width: 80%;
+    height: 200px;
+}
+
+@media only screen and (max-width:976px) {
+    .featureDiv {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .featureImg {
+        border-radius: 80px;
+    }
+
+    .eachFeatures {
+        padding: 20px;
+    }
+}

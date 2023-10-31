@@ -1,0 +1,29 @@
+.contactDiv {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+    margin: 0px 20px;
+}
+
+.each {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.each img {
+    width: 50%;
+    height: 60px;
+}
+
+.each p {
+    font-weight: 600;
+    text-align: center;
+}

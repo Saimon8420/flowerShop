@@ -1,0 +1,63 @@
+.flowerContainer {
+    padding: 60px;
+    text-align: center;
+    /* background-color: #f2d6dc; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flowerContainer h2 {
+    font-weight: 800;
+}
+
+.flowerContainer button {
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    color: #E55473;
+    background-color: white;
+    margin: auto;
+}
+
+.flowerDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.displayFlower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.eachImg {
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.03);
+    padding: 40px;
+}
+
+.eachImg img {
+    width: 100%;
+    height: 150px;
+}
+
+.price {
+    color: #E55473;
+}
+
+@media only screen and (max-width:576px) {
+    .flowerDiv {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:987px) {
+    .flowerDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

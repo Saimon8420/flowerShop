@@ -1,0 +1,21 @@
+.navBody {
+    background-color: var(--primaryBGColor);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    color: white;
+}
+
+.navBody h4 {
+    color: var(--primaryTColor);
+    font-weight: 800;
+    font-size: larger;
+}
+
+.navBody a {
+    color: white;
+}
+
+.navBody span {
+    color: white;
+}
